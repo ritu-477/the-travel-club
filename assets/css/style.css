@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+.max-w1140{
+    max-width: 1140px;
+}
+.font-poppin{
+    font-family: 'poppins',sans-serif;
+}
+.font-racing{
+    font-family:'racing sans one',sans-serif;
+}
+@font-face {
+    font-family: 'sans serif collection';
+    src: url("../font/SansSerifCollection/SansSerifCollection.ttf");
+}
+.ff-sans{
+    font-family: 'Sans Serif Collection',sans-serif;
+}
+/* font-weight */
+.font-w600{
+    font-weight: 600;
+}
+.font-w500 {
+    font-weight: 500;
+}
+.font-w400 {
+    font-weight: 400;
+}
+.font-w300 {
+    font-weight: 300;
+}
+/* line-height */
+.line-h75{
+    line-height: 75.2px;
+}
+.line-h56 {
+    line-height: 56px;
+}
+.line-h42 {
+    line-height: 42px;
+}
+.line-h37 {
+    line-height: 37.6px;
+}
+.line-h36 {
+    line-height: 36px;
+}
+.line-h35 {
+    line-height: 35.7px;
+}
+.line-h32 {
+    line-height: 32px;
+}
+.line-h30 {
+    line-height: 30px;
+}
+.line-h75 {
+    line-height: 75.2px;
+}
+.line-h28 {
+    line-height: 28.2px;
+}
+.line-h27 {
+    line-height: 27.3px;
+}
+.line-h25 {
+    line-height: 25px;
+}
+.line-h24 {
+    line-height: 24px;
+}
+.line-h21 {
+    line-height: 21px;
+}
+.bg_image1{
+    background-image: url("../images/hero-bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-box{
+    padding: 29px 0 30.6px 0;
+    background: var(--fc-blue-shadow);
+}
+.gap_32{
+    gap: 32px;
+}
+.connect-wallet{
+    padding: 14px 32px;
+    border-radius: 60px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, var(--fc-linear-blue1) 0%, var(--fc-linear-blue2) 100%);
+    transition: 1s;
+    position: relative;
+    z-index: 0;
+}
+.connect-wallet:hover{
+     border: 1px solid var(--fc-linear-blue1);
+    color: var(--fc-linear-blue1);
+    background: var(--fc-white);
+}
+.bt_line:hover{
+    color: var(--fc-white);
+        text-shadow: 0 0.3px .80px var(--fc-white), 0 0.3px .80px;
+}
+.bt_line::after{
+    content: "";
+   position: absolute;
+   height: 1px;
+   background: var(--fc-white);
+   width: 0%;
+   bottom: 0;
+   left: 0;
+   transition: 0.5s;
+}
+.bt_line:hover::after{
+    width: 100%;
+}
