@@ -9,7 +9,7 @@
     --fs-xlg: 32px;
     --fs-2xl: 36px;
     --fs-3xl: 48px;
-    --fs-4xl: 64px;
+    --fs-4xl: 22px;
     /* font-color */
     /* --fc-black: #000000;
     --fc-primary-black: #b2b2b2;
@@ -27,37 +27,34 @@
     --fc-shadow3: #8256F066; */
 }
 .text-64{
-    font-size: 64px;
+    font-size: var(--fs-4xl);
 }
 .text-48 {
-    font-size: 48px;
+    font-size: var(--fs-3xl);
 }
 .text-36 {
-    font-size: 64px;
-}
-.text-64 {
-    font-size: 36px;
+    font-size: var(--fs-3xl);
 }
 .text-32 {
-    font-size: 32px;
+    font-size: var(--fs-xlg);
 }
 .text-28 {
-    font-size: 28px;
+    font-size: var(--fs-lg);
 }
 .text-24 {
-    font-size: 24px;
+    font-size: var(--fs-md);
 }
 .text-20 {
-    font-size: 20px;
+    font-size: var(--fs-xmd);
 }
 .text-16 {
-    font-size: 16px;
+    font-size: var(--fs-sm);
 }
 .text-14 {
-    font-size: 14px;
+    font-size: var(--fs-xsm);
 }
 .text-10 {
-    font-size: 10px;
+    font-size: var(--fs-xxsm);
 }
 /* clr */
 .clr-white{
@@ -65,4 +62,28 @@
 }
 .clr-primarywhite{
     color: var(--fc-primary-white);
+}
+
+/* ...............................media-quries */
+@media(min-width:576px) {
+    :root {
+        /* --fs-md: 24px;
+        --fs-lg: 40px; */
+        --fs-4xl: 39px;
+    }
+}
+
+@media(min-width:768px) {
+    :root {
+        --fs-xl: 50px;
+        
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        /* --fs-lg: 50px;
+        --fs-xl: 61px; */
+        --fs-4xl: 64px;
+    }
 }
