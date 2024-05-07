@@ -27,7 +27,8 @@
     --fc-clr-blue:#1B173B;
     --fc-clr-gray:#75758e;
     --fc-white-bg:#FFFFFF14;
-    --fc-clr-primary-gray:#aaa9b7;
+    --fc-primary-gray:#d0cfd3;
+    
     /* --fc-white-shadow1: #00000040;
     --fc-shadow2: #FF586E47;
     --fc-shadow3: #8256F066; */
@@ -71,6 +72,9 @@
 }
 .clr-bodybg{
     background:var(--fc-bodyclr);
+}
+.primary-gray{
+    color: var(--fc-primary-gray);
 }
 
 /* ...............................media-quries */
