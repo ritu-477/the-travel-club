@@ -161,8 +161,8 @@
     padding-top: 60px;
 }
 
-.pb_48 {
-    padding-bottom: 48px;
+.pb_30 {
+    padding-bottom: 30px;
 }
 
 .bt_underline::after {
@@ -346,7 +346,7 @@
 
 .absolute3 {
     position: absolute;
-    top: -230px;
+    top: -50px;
     right: 0;
 
 }
@@ -376,6 +376,15 @@
 .get-btn:hover {
     color: var(--fc-linear-blue1);
     background: var(--fc-white);
+}
+
+.py_110_130 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.max-w535 {
+    max-width: 535px;
 }
 
 
@@ -460,6 +469,11 @@
         gap: 30px;
     }
 
+    .py_110_130 {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -467,14 +481,15 @@
         padding-top: 140px;
     }
 
-    .pb_60 {
-        padding-bottom: 60px;
-    }
-
     .bt_underline::after {
         width: 294px;
         height: 11px;
         left: 29%;
+    }
+
+    .py_110_130 {
+        padding-top: 70px;
+        padding-bottom: 90px;
     }
 
 }
@@ -497,6 +512,15 @@
 
     .check-box {
         max-width: 180px;
+    }
+
+    .py_110_130 {
+        padding-top: 110px;
+        padding-bottom: 130px;
+    }
+
+    .pb_lg_60 {
+        padding-bottom: 60px;
     }
 
 }
