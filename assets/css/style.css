@@ -485,7 +485,18 @@
  .rating-box{
     padding:16px 20px 21px 20px;
  }
-
+.absolute4{
+    position: absolute;
+    left: 0;
+    top: -260px;
+    z-index: -1;
+}
+.absolute5 {
+    position: absolute;
+    right: 0;
+    top: -155px;
+    z-index: -1;
+}
 
 
 
