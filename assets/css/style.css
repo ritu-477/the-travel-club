@@ -459,10 +459,31 @@
     padding-top: 48px;
     padding-bottom: 48px;
 }
-/* */
+/*................member-deals section */
  .py_80_55 {
-     padding-top: 80px;
-     padding-bottom: 55px;
+     padding-top: 48px;
+     padding-bottom: 48px;
+ }
+ .slider-card{
+    max-width: 367px;
+    background: var(--fc-blue-shadow);
+    border-radius: 13px;
+    position: relative;
+ }
+ .discount-box{
+    border-radius: 42px;
+    padding: 10px 28px;
+    background: var(--fc-black-shadow);
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    backdrop-filter: blur(10px);
+ }
+ .max-w367{
+    max-width: 367px;
+ }
+ .rating-box{
+    padding:16px 20px 21px 20px;
  }
 
 

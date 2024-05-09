@@ -21,9 +21,11 @@
     --fc-bodyclr:#140d1b;
     --fc-clr-blue:#1B173B;
     --fc-clr-gray:#75758e;
+    --fc-clr-primary-gray:#8989a5;
     --fc-white-bg:#FFFFFF14;
     --fc-primary-gray:#d0cfd3;
     --fc-black-shadow: #01010140;
+    --fc-blue-shadow: #1219D233;
 }
 .text-64{
     font-size: var(--fs-4xl);
@@ -67,6 +69,9 @@
 }
 .primary-gray{
     color: var(--fc-primary-gray);
+}
+.clr-primary-gray{
+    color: var(--fc-clr-primary-gray);
 }
 
 /* ...............................media-quries */
