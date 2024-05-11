@@ -26,6 +26,7 @@
     --fc-primary-gray:#d0cfd3;
     --fc-black-shadow: #01010140;
     --fc-blue-shadow: #1219D233;
+    --fc-clr-primary-white: #d2d1e1;
 }
 .text-64{
     font-size: var(--fs-4xl);
@@ -73,6 +74,10 @@
 .clr-primary-gray{
     color: var(--fc-clr-primary-gray);
 }
+.clr-primary_white{
+    color: var(--fc-clr-primary-white);
+}
+
 
 /* ...............................media-quries */
 @media(min-width:576px) {

@@ -169,7 +169,7 @@
     padding-bottom: 30px;
 }
 
-.bt_underline::after {    
+.bt_underline::after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -554,7 +554,38 @@
     padding-bottom: 30px;
 }
 
+/*.................................. tokenomics................. */
+.max_1120 {
+    max-width: 1120px;
+}
 
+.bg_image2 {
+    background-image: url("../images/bg-image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pb_50{
+    padding-bottom: 50px;
+}
+.py_65_30{
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+.my_26_54{
+    margin-top: 26px;
+    margin-bottom: 54px;
+}
+.token_card{
+    padding: 30px 50px;
+    background: var(--fc-linear-blue1);
+    border-radius: 20px;
+    max-width: 582px;
+    min-height: 480px;
+}
+.gap_30{
+    gap: 30px;
+}
 
 
 
@@ -616,6 +647,7 @@
         width: 27px;
     }
 }
+
 @media(min-width:576px) {
     .line-sm-h50 {
         line-height: 50px;
@@ -675,20 +707,23 @@
     .pb_50 {
         padding-bottom: 50px;
     }
-         .line-h75 {
-             line-height: 60px;
-         }
+
+    .line-h75 {
+        line-height: 60px;
+    }
 
 }
-@media(min-width:650px){
+
+@media(min-width:650px) {
     .bt_underline::after {
-            width: 330px;
-            display: block;
-            height: 14;
-            bottom: 12px;
-            left: 27%;
-        }
+        width: 330px;
+        display: block;
+        height: 14;
+        bottom: 12px;
+        left: 27%;
+    }
 }
+
 @media(min-width:768px) {
     .pt_md_140 {
         padding-top: 140px;
