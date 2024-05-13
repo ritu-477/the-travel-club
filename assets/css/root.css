@@ -35,6 +35,7 @@
     --fc-left-line4: #d1b35e;
     --fc-left-line5: #98dbb3;
     --fc-border1: #e9ebed;
+    --fc-footer-bg: #010101;
 }
 .text-64{
     font-size: var(--fs-4xl);
@@ -90,6 +91,9 @@
 }
 .clr-white1{
     color: var(--fc-clr-white1);
+}
+.clr-ft_bg{
+    background-color: var(--fc-footer-bg);
 }
 
 

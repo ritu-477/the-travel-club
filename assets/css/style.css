@@ -746,6 +746,17 @@
     right: 0 !important;
     background-size: cover !important;
 }
+/* ............................footer-section */
+   .mt_80 {
+       margin-top: 40px;
+   }
+   .py_44_50{
+    padding-top: 44px;
+    padding-bottom: 50px;
+   }
+   .pb_26{
+    padding-bottom: 26px;
+   }
 
 
 
@@ -923,7 +934,11 @@
 
     .accordion-button::after {
         top: 35px !important;
-            right: 25 !important;
+        right: 25 !important;
+    }
+
+    .mt_80 {
+        margin-top: 60px;
     }
 }
 
@@ -976,6 +991,10 @@
     .py_80 {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+
+    .mt_80 {
+        margin-top: 80px;
     }
 }
 
