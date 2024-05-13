@@ -53,7 +53,7 @@
 
 /* line-height */
 .line-h56 {
-    line-height: 56px;
+    line-height: 40px;
 }
 
 .line-h42 {
@@ -563,9 +563,9 @@
     background-position: center;
 }
 
-.pb_50 {
+/* .pb_50 {
     padding-bottom: 50px;
-}
+} */
 
 .py_65_30 {
     padding-top: 65px;
@@ -664,6 +664,87 @@
 
 .slick-slider.responsive2 .slick-slide {
     height: inherit !important;
+}
+
+/* .............faqs............... */
+.absolute8 {
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    z-index: -2;
+}
+
+.max_w749 {
+    max-width: 749px;
+}
+
+.accordion-button {
+    color: var(--fc-primary-white) !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.accordion-button .max_w561 {
+    max-width: 561px;
+    margin-right: 10px;
+}
+
+.opacity_70 {
+    opacity: 70%;
+}
+
+.max_w564 {
+    max-width: 564px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion {
+    --bs-accordion-color: none !important;
+    --bs-accordion-bg: none !important;
+}
+
+.accordion-item {
+    color: unset !important;
+    background-color: none !important;
+    border-bottom: 1px solid var(--fc-border1) !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: none !important;
+}
+
+.accordion-item:first-of-type {
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-item:last-of-type {
+    border-bottom: none !important;
+}
+
+.accordion-body {
+    padding: 0 16px 16px 16px !important;
+}
+
+.accordion-button::after {
+    background-image: url("../images/svguparrow.svg") !important;
+    width: 21px !important;
+    height: 12px !important;
+    position: absolute;
+    top: 27px !important;
+    right: 0 !important;
+    background-size: cover !important;
 }
 
 
@@ -830,6 +911,20 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
+    .py_80 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .line-h56 {
+        line-height: 56px;
+    }
+
+    .accordion-button::after {
+        top: 35px !important;
+            right: 25 !important;
+    }
 }
 
 @media(min-width:650px) {
@@ -875,6 +970,11 @@
 
     .py_154_80 {
         padding-top: 154px;
+        padding-bottom: 80px;
+    }
+
+    .py_80 {
+        padding-top: 80px;
         padding-bottom: 80px;
     }
 }

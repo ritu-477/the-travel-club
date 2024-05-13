@@ -1,6 +1,7 @@
 :root {
     /* font-size */
     --fs-xxsm: 10px;
+    --fs-xxsm: 13px;
     --fs-xsm: 14px;
     --fs-sm: 15px;
     --fs-xmd: 16px;
@@ -33,6 +34,7 @@
     --fc-left-line3: #e76e9a;
     --fc-left-line4: #d1b35e;
     --fc-left-line5: #98dbb3;
+    --fc-border1: #e9ebed;
 }
 .text-64{
     font-size: var(--fs-4xl);
@@ -60,6 +62,9 @@
 }
 .text-14 {
     font-size: var(--fs-xsm);
+}
+.text-13{
+    font-size: var(--fs-xxsm);
 }
 .text-10 {
     font-size: var(--fs-xxsm);
@@ -91,6 +96,7 @@
 /* ...............................media-quries */
 @media(min-width:576px) {
     :root {
+        --fs-xxsm:16px;
         --fs-xlg: 32px;
         --fs-3xl: 48px;
         --fs-4xl: 42px;
