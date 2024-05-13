@@ -563,10 +563,6 @@
     background-position: center;
 }
 
-/* .pb_50 {
-    padding-bottom: 50px;
-} */
-
 .py_65_30 {
     padding-top: 65px;
     padding-bottom: 30px;
@@ -579,7 +575,7 @@
 
 .token_card {
     padding: 15px 16px;
-    background: var(--fc-linear-blue1);
+    background-color: rgba(18, 25, 210, 0.2);
     border-radius: 20px;
     max-width: 582px;
     min-height: 480px;
@@ -746,18 +742,47 @@
     right: 0 !important;
     background-size: cover !important;
 }
+
 /* ............................footer-section */
-   .mt_80 {
-       margin-top: 40px;
-   }
-   .py_44_50{
+.mt_80 {
+    margin-top: 40px;
+}
+
+.py_44_50 {
     padding-top: 44px;
     padding-bottom: 50px;
-   }
-   .pb_26{
-    padding-bottom: 26px;
-   }
+}
 
+.pb_26 {
+    padding-bottom: 26px;
+}
+
+.nav_link {
+    position: relative;
+    transition: all 300ms linear;
+}
+
+.nav_link::after {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    background: var(--fc-white);
+    width: 0;
+    left: 50%;
+    bottom: -3px;
+    transition: all 300ms linear;
+    transform: translateX(-50%);
+}
+
+.nav_link:hover::after {
+    width: 100%;
+}
+.icons{
+    transition: all 100ms linear;
+}
+.icons:hover{
+    transform: translateY(-5px);
+}
 
 
 
