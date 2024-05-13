@@ -12,6 +12,7 @@
     --fs-4xl: 40px;
     /* font-color */
     --fc-white: #fff;
+    --fc-clr-white1: #fcfffe;
     --fc-clr-white: #f9f9fd;
     --fc-primary-white: #fafafa;
     --fc-navblue:#1f204b;
@@ -81,6 +82,9 @@
 }
 .clr-primary_white{
     color: var(--fc-clr-primary-white);
+}
+.clr-white1{
+    color: var(--fc-clr-white1);
 }
 
 

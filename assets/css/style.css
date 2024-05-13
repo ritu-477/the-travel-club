@@ -625,8 +625,42 @@
     width: 6px;
     background-color: var(--fc-left-line5);
 }
+/* ....................meet-our-team............. */
+.absolute6{
+ position: absolute;
+ top: -25%;
+ right: 0;
+ z-index: -1;
+}
+ .py_154_80 {
+     padding-top: 48px;
+     padding-bottom: 48px;
+ }
+ .absolute7{
+    position: absolute;
+    bottom: -60%;
+    left: 0;
+    z-index: -1;
+ }
+ .slider-card2{
+    background: var(--fc-blue-shadow);
+        border-radius: 13px;
+ }
+ .br_13{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+ }
+ .ceo-box{
+    padding: 20px 0 22px 24px;
+ }
+ .slick-slider.responsive2 .slick-list .slick-track {
+     display: flex;
+     gap: 20px !important;
+ }
 
-
+ .slick-slider.responsive2 .slick-slide {
+     height: inherit !important;
+ }
 
 
 
@@ -786,6 +820,10 @@
         gap: 24px;
     }
 
+    .py_154_80 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 @media(min-width:650px) {
@@ -829,6 +867,10 @@
         padding-bottom: 55px;
     }
 
+    .py_154_80 {
+        padding-top: 154px;
+        padding-bottom: 80px;
+    }
 }
 
 @media(min-width:992px) {
