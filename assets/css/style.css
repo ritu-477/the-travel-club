@@ -783,7 +783,27 @@
 .icons:hover{
     transform: translateY(-5px);
 }
+.topBtn {
+    border-radius: 50px;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: var(--fc-linear-blue1);
+    cursor: pointer;
+    padding: 10px;
+    z-index: 6;
+}
 
+.topBtn.show {
+    display: block;
+}
+
+.topBtn:active {
+    transform: translateY(5px);
+}
 
 
 
