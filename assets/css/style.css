@@ -338,12 +338,6 @@
 }
 
 /* .................................about-us.section.......... */
-.absolute1 {
-    position: absolute;
-    left: 0;
-    bottom: -60%;
-    z-index: -1;
-}
 
 .absolute2 {
     position: absolute;
@@ -363,6 +357,17 @@
 
 .pb_20 {
     padding-bottom: 20px;
+}
+
+.ellip {
+    width: 402px;
+        height: 300px;
+        background: var(--fc-linear-blue1);
+        filter: blur(200px);
+        position: absolute;
+        left: -15%;
+        bottom: -20%;
+        z-index: -3;
 }
 
 .get-btn {
@@ -398,15 +403,16 @@
 .z_4 {
     z-index: 4 !important;
 }
- .py_110_65 {
-     padding-top: 48px;
-     padding-bottom: 48px;
- }
+
+.py_110_65 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
 /* ................popular-detination............... */
 .absolute3 {
     position: absolute;
-    top: 30%;
+    top: -15%;
     left: 0;
     z-index: -2;
 }
@@ -586,7 +592,8 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.h_215{
+
+.h_215 {
     height: 215px;
 }
 
@@ -701,6 +708,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .absolute8 {
     position: absolute;
     bottom: -50%;
