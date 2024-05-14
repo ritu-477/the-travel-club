@@ -3,10 +3,7 @@ function openNav() {
     document.body.classList.toggle("overflowhidden")
     document.querySelector(".iconbox").classList.toggle("cross")
 }
-// function toggleClass() {
-//     const btnn = document.getElementById('btnn');
-//     btnn.classList.toggle("active");
-// }
+
 $(document).ready(function () {
     $('.travel__linelink').on('click', function () {
         $('.travel__linelink').removeClass('active');
