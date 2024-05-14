@@ -69,34 +69,36 @@
                     <div
                         class="d-flex gap_20 align-items-center justify-content-md-center overflow-scroll no_scrollbar mb-4">
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white position-relative travel-line mb-0 cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white position-relative travel-line active travel__linelink mb-0 cursor_pointer">
                             Stays</p>
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line travel__linelink cursor_pointer">
                             Flights</p>
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line travel__linelink cursor_pointer">
                             Cars</p>
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line travel__linelink cursor_pointer">
                             Packages</p>
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white text-nowrap mb-0 position-relative travel-line cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white text-nowrap mb-0 position-relative travel__linelink travel-line cursor_pointer">
                             Things To Do</p>
                         <p
-                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line cursor_pointer">
+                            class="font-poppin font-w500 text-16 line-h24 clr-white mb-0 position-relative travel-line travel__linelink cursor_pointer">
                             Cruises</p>
                     </div>
                     <div class="d-flex justify-content-end gap-2 align-items-center pb-2">
-                        <p class="font-poppin font-w400 text-14 line-h21 clr-white mb-0">1 room, 2 travelers</p>
+                        <p class="font-poppin font-w400 text-14 line-h21 clr-white mb-0">1 Room, 2 Travelers</p>
                         <div class="dropdown1">
                             <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
                             </svg>
                             <div class="dropdown1-content">
-                                <p class="mb-0 font-poppin clr-white text-10 font-w300 line-h15">1 room, 2 travelers</p>
-                                <p class="mb-0 font-poppin clr-white text-10 font-w300 line-h15">2 room, 4 travelers</p>
+                                <p class="mb-0 font-poppin clr-white text-10 font-w300 line-h15 text-nowrap pb-2">1
+                                    Room, 2 Travelers</p>
+                                <p class="mb-0 font-poppin clr-white text-10 font-w300 line-h15 text-nowrap">2 Room, 4
+                                    Travelers</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +111,8 @@
                                         d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
                                         fill="#FAFAFA" />
                                 </svg>
-                                <p class="mb-0 clr-white font-poppin font-w300 text-16 line-h24">Going to</p>
+                                <input type="search" placeholder="Going to"
+                                    class="font-poppin clr-white font-w300 text-16 line-h24 w-100 border-0 input-card">
                             </div>
                         </div>
                         <div class="check-box d-flex justify-content-between align-items-center">
@@ -190,8 +193,8 @@
                 </div>
             </div>
         </section>
-        <div class="absolute1">
-            <img src="./assets/images/bg-ellips1.png" alt="ellips1" class="w-100">
+        <div class="absolute1 d-md-block d-none">
+            <img src="./assets/images/bg-ellips1.png" alt="ellips1">
         </div>
     </header>
     <!-- about-us -->
@@ -231,7 +234,7 @@
     <section class="position-relative z_4 py_65_80">
         <img src="./assets/images/bg-ellips4.png" alt="ellips4" class="position-absolute bottom-0 z-n1 end-0">
         <div class="absolute3 d-md-block d-none">
-            <img src="./assets/images/bg-ellips5.png" alt="ellips5">
+            <img src="./assets/images/bg-ellips5.png" alt="ellips5" class="w_h365">
         </div>
         <div class="container_1140">
             <div class="text-center pb_lg_106 pb_48">
@@ -296,7 +299,7 @@
         </div>
     </section>
     <!-- member-deals -->
-    <section class="py_80_55 position-relative">
+    <section class="py_80_110 position-relative">
         <div class="absolute4 d-md-block d-none">
             <img src="./assets/images/ellips6.png" alt="bgellips6">
         </div>
@@ -315,7 +318,9 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex gap-2">
                                 <p class="ff-sans font-w400 text-24 line-h28 clr-white mb-0">$1,100</p>
-                                <p class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">$1,999
+                                <p
+                                    class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">
+                                    $1,999
                                 </p>
                             </div>
                             <div class="d-flex gap-1">
@@ -343,7 +348,9 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex gap-2">
                                 <p class="ff-sans font-w400 text-24 line-h28 clr-white mb-0">$1,100</p>
-                                <p class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">$1,999
+                                <p
+                                    class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">
+                                    $1,999
                                 </p>
                             </div>
                             <div class="d-flex gap-1">
@@ -371,7 +378,9 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex gap-2">
                                 <p class="ff-sans font-w400 text-24 line-h28 clr-white mb-0">$1,100</p>
-                                <p class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">$1,999
+                                <p
+                                    class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">
+                                    $1,999
                                 </p>
                             </div>
                             <div class="d-flex gap-1">
@@ -399,7 +408,9 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex gap-2">
                                 <p class="ff-sans font-w400 text-24 line-h28 clr-white mb-0">$1,100</p>
-                                <p class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">$1,999
+                                <p
+                                    class="ff-sans font-w400 text-24 line-h28 clr-primary-gray opacity-50 mb-0 text-decoration-line-through">
+                                    $1,999
                                 </p>
                             </div>
                             <div class="d-flex gap-1">
@@ -423,17 +434,17 @@
     </section>
     <!-- tokenomics -->
     <section class="position-relative z-3 bg_image2 py_65_30" id="token">
-        <img src="./assets/images/rectangle1.png" alt="rectangle" class="w-100 position-absolute top-0 z-n1">
+        <img src="./assets/images/rectangle1.png" alt="rectangle" class="w-100 position-absolute top-0 z-n1 liner-img">
         <img src="./assets/images/bg-ellips4.png" alt="ellips4" class="position-absolute top-0 z-n1 end-0">
-        <img src="./assets/images/reactangle2.png" alt="reactangle2" class="w-100 position-absolute bottom-0 z-n1">
+        <img src="./assets/images/reactangle2.png" alt="reactangle2" class="w-100 gradient-img">
         <div class="container_1140 max_1120">
             <h2 class="ff-sans font-w400 text-48 line-h56 clr-white mb-0 pb_50 text-center">Tokenomics: Powering
                 Digital Economies</h2>
             <div class="row d-flex justify-content-between">
-                <div class="col-xl-5 col-12 d-flex justify-content-center">
-                    <img src="./assets/images/token-img.png" alt="token" class="w-100 max_406">
+                <div class="col-lg-5 col-12 d-flex justify-content-center">
+                    <img src="./assets/images/token-img.png" alt="token" class="w-100 max_406 object-fit-contain">
                 </div>
-                <div class="col-xl-7 col-12 d-flex justify-content-xl-end justify-content-center mt-5 mt-xl-0">
+                <div class="col-lg-7 col-12 d-flex justify-content-xl-end justify-content-center mt-5 mt-lg-0">
                     <div class="token_card w-100">
                         <h3 class="font-w400 ff-sans text-36 line-h42 clr-white text-center mb-0">Travel Club Metrics
                         </h3>
@@ -507,7 +518,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <!-- meet-our-team -->
@@ -692,10 +702,10 @@
                         <div class="col-lg-4 col-md-4 col-6">
                             <div class="d-flex flex-column gap-sm-3 gap-2">
                                 <h4 class="font-poppin text-16 line-h25 clr-primarywhite font-w400">Contact Us</h4>
-                                <p class="font-poppin text-16 line-h25 clr-primarywhite font-w400 opacity_80 mb-0"
-                                        >4517 Washington Ave. Manchester, Kentucky 39495</p> 
-                                <p class="font-poppin text-16 line-h25 clr-primarywhite font-w400 opacity_80 mb-0"
-                                       >+123 456 7890, +123 456 7890 </p>
+                                <p class="font-poppin text-16 line-h25 clr-primarywhite font-w400 opacity_80 mb-0">4517
+                                    Washington Ave. Manchester, Kentucky 39495</p>
+                                <p class="font-poppin text-16 line-h25 clr-primarywhite font-w400 opacity_80 mb-0">+123
+                                    456 7890, +123 456 7890 </p>
                             </div>
                         </div>
                         <div
@@ -720,23 +730,26 @@
                                 <h4 class="font-poppin text-16 line-h25 clr-primarywhite font-w400 mb-0">Social Share
                                 </h4>
                                 <div class="d-flex align-items-center gap_32">
-                                    <a class="icons" target="_blank" href="https://twitter.com/"><svg width="28" height="24"
-                                            viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <a class="icons" target="_blank" href="https://twitter.com/"><svg width="28"
+                                            height="24" viewBox="0 0 28 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
                                                 fill="#FAFAFA" />
                                         </svg>
                                     </a>
-                                    <a class="icons" target="_blank" href="https://www.facebook.com/"><svg width="16" height="26"
-                                            viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <a class="icons" target="_blank" href="https://www.facebook.com/"><svg width="16"
+                                            height="26" viewBox="0 0 16 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M14.5745 1H10.9745C9.38321 1 7.85709 1.63214 6.73187 2.75736C5.60665 3.88258 4.97451 5.4087 4.97451 7V10.6H1.37451V15.4H4.97451V25H9.77451V15.4H13.3745L14.5745 10.6H9.77451V7C9.77451 6.68174 9.90094 6.37652 10.126 6.15147C10.351 5.92643 10.6563 5.8 10.9745 5.8H14.5745V1Z"
                                                 stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
                                                 stroke-linejoin="round" />
                                         </svg>
                                     </a>
-                                    <a class="icons" target="_blank" href="https://www.instagram.com/"><svg width="27" height="26"
-                                            viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <a class="icons" target="_blank" href="https://www.instagram.com/"><svg width="27"
+                                            height="26" viewBox="0 0 27 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M13.5741 18.3346C14.9885 18.3346 16.3451 17.7727 17.3453 16.7725C18.3455 15.7723 18.9074 14.4158 18.9074 13.0013C18.9074 11.5868 18.3455 10.2303 17.3453 9.23007C16.3451 8.22987 14.9885 7.66797 13.5741 7.66797C12.1596 7.66797 10.803 8.22987 9.80282 9.23007C8.80263 10.2303 8.24072 11.5868 8.24072 13.0013C8.24072 14.4158 8.80263 15.7723 9.80282 16.7725C10.803 17.7727 12.1596 18.3346 13.5741 18.3346Z"
                                                 stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
@@ -756,11 +769,12 @@
             </div>
         </div>
         <button class="topBtn">
-            <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_44921_763)">
-                    <path d="M20.5103 18.4993V30.5827H17.4894V18.4993H6.9165L18.9998 6.41602L31.0832 18.4993H20.5103Z"
-                        fill="white" />
-                </g>
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="white" class="bi bi-chevron-double-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                <path fill-rule="evenodd"
+                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
             </svg>
         </button>
     </footer>

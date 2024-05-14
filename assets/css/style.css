@@ -202,7 +202,6 @@
     display: none;
 }
 
-
 .travel-line::after {
     content: "";
     position: absolute;
@@ -215,7 +214,7 @@
     transform: translateX(-50%);
 }
 
-.travel-line:hover::after {
+.travel-line.active::after {
     width: 100%;
 }
 
@@ -328,6 +327,16 @@
     margin-top: 30px;
 }
 
+.input-card {
+    outline: none;
+    background-color: transparent;
+    /* color: var(--fc-white); */
+}
+
+::placeholder {
+    color: var(--fc-white);
+}
+
 /* .................................about-us.section.......... */
 .absolute1 {
     position: absolute;
@@ -364,6 +373,8 @@
     border-radius: 60px;
     border: none;
     margin-top: 40px;
+    z-index: 8;
+    position: relative;
 }
 
 .get-btn:hover {
@@ -391,9 +402,14 @@
 /* ................popular-detination............... */
 .absolute3 {
     position: absolute;
-    top: -210px;
+    top: 30%;
     left: 0;
-    z-index: -1;
+    z-index: -2;
+}
+
+.w_h365 {
+    width: 365px;
+    height: 365px;
 }
 
 .grid-box {
@@ -461,7 +477,7 @@
 }
 
 /*................member-deals section */
-.py_80_55 {
+.py_80_110 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -555,11 +571,16 @@
     max-width: 1120px;
 }
 
+.liner-img {
+    filter: blur(2px);
+    top: -3px;
+    opacity: 96%;
+}
+
 .bg_image2 {
-    background-image: url("../images/bg-image2.png");
+    background-image: url("../images/token-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
 }
 
 .py_65_30 {
@@ -616,6 +637,13 @@
     height: 64px;
     width: 6px;
     background-color: var(--fc-left-line5);
+}
+
+.gradient-img {
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+    filter: blur(30px);
 }
 
 /* ....................meet-our-team............. */
@@ -776,15 +804,18 @@
 .nav_link:hover::after {
     width: 100%;
 }
-.icons{
+
+.icons {
     transition: all 100ms linear;
 }
-.icons:hover{
+
+.icons:hover {
     transform: translateY(-5px);
 }
+
 .topBtn {
     border-radius: 50px;
-    display: none;
+    visibility: hidden;
     position: fixed;
     bottom: 15px;
     right: 30px;
@@ -797,7 +828,7 @@
 }
 
 .topBtn.show {
-    display: block;
+    visibility: visible;
 }
 
 .topBtn:active {
@@ -863,9 +894,6 @@
         width: 27px;
     }
 
-}
-
-@media(max-width:1199.99px) {
     .max_406 {
         max-width: 406px;
     }
@@ -875,6 +903,8 @@
     }
 
 }
+
+
 
 @media(max-width:575.99px) {
     .pe_72 {
@@ -1022,9 +1052,9 @@
         padding-bottom: 60px;
     }
 
-    .py_80_55 {
+    .py_80_110 {
         padding-top: 80px;
-        padding-bottom: 55px;
+        padding-bottom: 110px;
     }
 
     .py_154_80 {

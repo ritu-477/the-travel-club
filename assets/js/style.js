@@ -3,6 +3,17 @@ function openNav() {
     document.body.classList.toggle("overflowhidden")
     document.querySelector(".iconbox").classList.toggle("cross")
 }
+function toggleClass() {
+    const btnn = document.getElementById('btnn');
+    btnn.classList.toggle("active");
+}
+$(document).ready(function () {
+    $('.travel__linelink').on('click', function () {
+        $('.travel__linelink').removeClass('active');
+        $(this).addClass('active');
+    })
+});
+
 
 const months = [
     "January",
@@ -40,7 +51,7 @@ const mybutton = document.querySelector(".topBtn");
 const show = document.querySelector(".show")
 
 window.addEventListener("scroll", function () {
-    if (window.scrollY > 60) {
+    if (window.scrollY > 600) {
         mybutton.classList.add("show")
     }
     else {
@@ -51,6 +62,7 @@ mybutton.addEventListener("click", function () {
     document.documentElement.scrollTop = 0;
 
 });
+
 
 $('.responsive1').slick({
     dots: true,
