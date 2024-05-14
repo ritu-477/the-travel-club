@@ -383,8 +383,8 @@
 }
 
 .py_110_130 {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .max-w535 {
@@ -398,6 +398,10 @@
 .z_4 {
     z-index: 4 !important;
 }
+ .py_110_65 {
+     padding-top: 48px;
+     padding-bottom: 48px;
+ }
 
 /* ................popular-detination............... */
 .absolute3 {
@@ -582,6 +586,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.h_215{
+    height: 215px;
+}
 
 .py_65_30 {
     padding-top: 65px;
@@ -690,6 +697,10 @@
 }
 
 /* .............faqs............... */
+.py_80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .absolute8 {
     position: absolute;
     bottom: -50%;
@@ -772,7 +783,7 @@
 
 /* ............................footer-section */
 .mt_80 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .py_44_50 {
